@@ -29,7 +29,7 @@
                         <li><a href="Loc.jsp">Lọc</a></li>
                     </ul>
                     <div style="padding-top:8px;">
-                        <label class="col-md-offset-3" style="padding-top:8px;">Admin</label>
+                        <!-- <label class="col-md-offset-3" style="padding-top:8px;">Admin</label> -->
                         <a href="DangNhapChung.jsp" class="btn btn-primary pull-right">Đăng xuất</a>
                     </div>
                 </div>

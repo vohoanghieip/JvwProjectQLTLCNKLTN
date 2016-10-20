@@ -24,7 +24,7 @@
                         </li>
                     </ul>
                     <div style="padding-top:8px;">
-                        <label class="col-md-offset-8" style="padding-top:8px;">Tên Sinh Viên</label>
+                        <!--<label class="col-md-offset-8" style="padding-top:8px;">Tên Sinh Viên</label> -->
                         <a href="DangNhapChung.jsp" class="btn btn-primary pull-right">Đăng xuất</a>
                     </div>
                 </div>

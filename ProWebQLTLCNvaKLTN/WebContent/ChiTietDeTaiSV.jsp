@@ -25,7 +25,7 @@
                         <li><a href="ChucNangSinhVien.jsp" class="danger">Tìm Kiếm</a></li>
                     </ul>
                     <div style="padding-top:8px;">
-                        <label class="col-md-offset-8" style="padding-top:8px;">Tên Sinh Viên</label>
+                        <!-- <label class="col-md-offset-8" style="padding-top:8px;">Tên Sinh Viên</label>-->
                         <a href="DangNhapChung.jsp" target="_blank" class="btn btn-primary pull-right">Đăng xuất</a>
                     </div>
                 </div>

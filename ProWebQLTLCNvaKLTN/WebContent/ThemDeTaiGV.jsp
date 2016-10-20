@@ -26,7 +26,7 @@
                         <li><a href="KiemTraSaoChepGV.jsp">Kiểm tra sao chép</a></li>
                     </ul>
                     <div style="padding-top:8px;">
-                        <label class="col-md-offset-6" style="padding-top:8px;">Tên Giảng Viên</label>
+                        <!--<label class="col-md-offset-6" style="padding-top:8px;">Tên Giảng Viên</label>  -->
                         <a href="DangNhapChung.jsp" class="btn btn-primary pull-right">Đăng xuất</a>
                     </div>
                 </div>
@@ -108,7 +108,8 @@
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>
+                    <!--<button type="button" class="btn btn-danger" data-dismiss="modal">Đóng</button>  -->
+                    <a href="XemDanhSachDeTai.jsp" class="btn btn-default">Đóng</a>
                 </div>
             </div>
         </div>

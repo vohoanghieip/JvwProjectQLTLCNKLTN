@@ -28,7 +28,7 @@
                         <li><a href="Loc.jsp">Lọc</a></li>
                     </ul>
                     <div style="padding-top:8px;">
-                        <label class="col-md-offset-3" style="padding-top:8px;">Admin</label>
+                        <!--<label class="col-md-offset-3" style="padding-top:8px;">Admin</label>  -->
                         <a href="DangNhapChung.jsp" class="btn btn-primary pull-right">Đăng xuất</a>
                     </div>
                 </div>
@@ -38,8 +38,8 @@
             <div class="panel panel-default">
                 <div class="panel-heading">So sánh</div>
                 <div class="panel-body">
-                    <label>Nhập thông tin của đề tài (tối đa 300 từ) vào ô bên dưới: </label>
-                    <textarea class="form-control" rows="5" id="nhap_abstract"></textarea>
+                    <label>Nhập thông tin: </label>
+                    <textarea class="form-control input-lg" rows="5" id="nhap_abstract" placeholder="Nhập vào nội dung tóm tắt, hoặc phần abstract của đề tài. Nội dung tối đa là 300 chữ..."></textarea>
                     <br />
                     <br />
                     <span class="input-group-btn">

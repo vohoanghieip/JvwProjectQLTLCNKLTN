@@ -26,8 +26,6 @@
 	</style>
 </head>
 <body>
-
-
 	<form method="post" action="TaoTaiKhoan.jsp" accept-charset="utf-8" id="formTaoMoiTK">
 		<div class="container">
         <div class="row">
@@ -48,7 +46,7 @@
                         <li><a href="Loc.jsp">Lọc</a></li>
                     </ul>
                     <div style="padding-top:8px;">
-                        <label class="col-md-offset-3" style="padding-top:8px;"></label>
+                        <!--<label class="col-md-offset-3" style="padding-top:8px;"></label>  -->
                         <a href="DangNhapChung.jsp" class="btn btn-primary pull-right">Đăng xuất</a>
                     </div>
                 </div>
@@ -90,6 +88,7 @@
         </div>
     </div>
 	</form>
+	
 	<c:if test='${param.isSuccess=="1"}'>
 	<script type="text/javascript">
 		$(document).ready(function() {

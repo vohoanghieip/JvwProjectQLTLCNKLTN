@@ -1,3 +1,8 @@
+<%@ taglib
+    prefix="c"
+    uri="http://java.sun.com/jsp/jstl/core" 
+%>
+
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -21,7 +26,9 @@
 	</style>
 </head>
 <body>
-	<form method="get" accept-charset="utf-8" id="formTaoMoiTK">
+
+
+	<form method="post" action="TaoTaiKhoan.jsp" accept-charset="utf-8" id="formTaoMoiTK">
 		<div class="container">
         <div class="row">
             <img src="header.jpg" class="img-rounded" alt="Cinque Terre" width="100%">
@@ -41,7 +48,7 @@
                         <li><a href="Loc.jsp">Lọc</a></li>
                     </ul>
                     <div style="padding-top:8px;">
-                        <label class="col-md-offset-3" style="padding-top:8px;">Admin</label>
+                        <label class="col-md-offset-3" style="padding-top:8px;"></label>
                         <a href="DangNhapChung.jsp" class="btn btn-primary pull-right">Đăng xuất</a>
                     </div>
                 </div>
@@ -72,19 +79,28 @@
                         <br />
                         <label><input type="checkbox" name="Check_Quyen" value="">Quyền Sinh Viên</label>
                     </div>
-                    <div class="panel-footer">
+                    <input type="hidden" name="isSuccess" value="1"/>
+                    <div class="panel-footer text-center">
                      	<!--<a href="" target="" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Tạo tài khoản</a> -->                     	
-                     	<button id="TaoTK" class="btn btn-primary" type="submit" onclick="DanhSachTaiKhoanGiangVienDuocTao.jsp">Tạo tài khoản</button>
-                        <a href="Quanlytaikhoan.jsp" target="" class="btn btn-danger col-md-offset-5">Hủy</a>
+                     	<button id="TaoTK" class="btn btn-primary" type="submit">Tạo tài khoản</button>
+                        <a href="Quanlytaikhoan.jsp" target="" class="btn btn-danger">Hủy</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 	</form>
+	<c:if test='${param.isSuccess=="1"}'>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#myModal').modal({backdrop: 'static', keyboard: false});
+		})
+	</script>
+	</c:if>
 	<script type="text/javascript">
 	$(document).ready(function() {
 		//Khi bàn phím được nhấn và thả ra thì sẽ chạy phương thức này
+
 		$("#formTaoMoiTK").validate({
 			rules: {
 				id: "required",
@@ -105,23 +121,23 @@
 	<script type="text/javascript">
 	$("#TaoTK").on("click",function(){
 	    if (($("input[name*='Check_Quyen']:checked").length)<=0) {
-	        alert("Bạn phải cập nhật vào một trong hai quyền User");
+	        alert("Bạn phải chọn quyền");
+	        return false;
 	    }
-	    return true;
+	    
 	});
 </script>
-    <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal fade" id="myModal" role="dialog" >
         <div class="modal-dialog modal-sm">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <h4 class="modal-title">Thông báo</h4>
                 </div>
                 <div class="modal-body">
                     <p>Tài khoản đã được tạo thành công</p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Đóng</button>
+                    <a href="http://www.google.com" class="btn btn-default">Đóng</a>
                 </div>
             </div>
         </div>

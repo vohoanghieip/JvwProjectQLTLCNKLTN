@@ -136,7 +136,7 @@
                     <p>Tài khoản đã được tạo thành công</p>
                 </div>
                 <div class="modal-footer">
-                    <a href="http://www.google.com" class="btn btn-default">Đóng</a>
+                    <a href="DanhSachTaiKhoanSV.jsp" class="btn btn-default">Đóng</a>
                 </div>
             </div>
         </div>

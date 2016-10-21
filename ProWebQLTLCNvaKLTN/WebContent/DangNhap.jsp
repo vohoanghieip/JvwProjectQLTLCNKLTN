@@ -22,7 +22,7 @@
                 <div class="modal-body">
                     <div class="form-group">
                         <input type="text" name="txtTenTaiKhoanDN" class="form-control"
-                               placeholder="Tên tài khoản ..." >
+                               placeholder="Tài khoản đăng nhập ..." >
                     </div>
                     <div class="form-group">
                         <input type="password" name="txtMatKhauDN" class="form-control" placeholder="Mật khẩu ...">

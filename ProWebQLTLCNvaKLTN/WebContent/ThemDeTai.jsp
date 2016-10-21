@@ -27,93 +27,93 @@
 </head>
 <body>
 	<from method="post" action="ThemDeTai.jsp" accept-charset="utf-8" id="formThemDTK"> 
-	<div class="container">
-	        <div class="row">
-	            <img src="header.jpg" class="img-rounded" alt="Cinque Terre" width="100%">
-	        </div>
-	        <div class="row">
-	            <nav class="navbar navbar-default">
-	                <div class="container-fluid">
-	                    <ul class="nav navbar-nav">
-	                        <li>
-	                            <a href="TrangChu.jsp"> Trang chủ</a>
-	                        </li>
-	                        <li><a href="Quanlytaikhoan.jsp">Quản lý tài khoản</a></li>
-	                        <li class="active"><a href="QuanLyDeTai.jsp">Quản lý đề tài</a></li>
-	                        <li><a href="KiemTraSaoChep.jsp">Kiểm tra sao chép</a></li>
-	                        <li><a href="SoSanh.jsp">So sánh</a></li>
-	                        <li><a href="Loc.jsp">Lọc</a></li>
-	                    </ul>
-	                    <div style="padding-top:8px;">
-	                        <!--<label class="col-md-offset-3" style="padding-top:8px;">Admin</label>  -->
-	                        <a href="DangNhapChung.jsp" class="btn btn-primary pull-right">Đăng xuất</a>
-	                    </div>
-	                </div>
-	            </nav>
-	        </div>
-	        <div class="row">
-	            <div class="col-sm-8 col-lg-offset-2">
-	                <div class="panel panel-primary">
-	                    <div class="panel-heading text-center">Thêm đề tài</div>
-	                    <div class="panel-body">
-	                        <div class="form-group">
-	                            <label for="id">Tên đề tài:</label>
-	                            <input type="text" class="form-control" id="tendetai" required >
-	                        </div>
-	                        <div class="form-group">
-	                            <label for="name">Loại đề tài :</label>
-	                            <input type="text" class="form-control" id="loaidetai" required >
-	                        </div>
-	                        <div class="form-group">
-	                            <label for="name">Trưởng nhóm :</label>
-	                            <input type="text" class="form-control" id="truongnhom" required >
-	                            <label for="name">Mã SV :</label>
-	                            <input type="text" class="form-control" id="idnt" required>
-	                        </div>                                                 
-	                        <div class="form-group">
-	                            <label for="name">Thành viên :</label>
-	                            <input type="text" class="form-control" id="thanhvien" required >
-	                            <label for="name">Mã SV :</label>
-	                            <input type="text" class="form-control" id="idtv" required >
-	
-	                            <input type="file" />
-	                            <button class="btn btn-primary">Upload</button>
-	                        </div>
-	                        <div class="form-group">
-	                            <label for="name">Giáo Viên hướng dẫn :</label>
-	                            <input type="text" class="form-control" id="gvhd" required >
-	                            <label for="name">Mã GVHD :</label>
-	                            <input type="text" class="form-control" id="idgvhd" required >
-	                        </div>
-	                        <div class="form-group">
-	                            <label for="name">Giáo Viên phản biện :</label>
-	                            <input type="text" class="form-control" id="gvpb" required>
-	                            <label for="name">Mã GVPB :</label>
-	                            <input type="text" class="form-control" id="idgvpb" required >
-	                        </div>
-	                        <div class="form-group">
-	                            <label for="name">Điểm đề tài:</label>
-	                            <input type="text" class="form-control" id="score" required>
-	                            <label for="name">Năm :</label>
-	                            <input type="text" class="form-control" id="year" required>
-	                        </div>
-	                        <div class="form-group">
-	                            <label for="name">Tài liệu đính kèm:</label>
-	                            <a href="">Link liên kết tới nơi chứa tài liệu</a>
-	
-	                            <input type="file" />
-	                            <button class="btn btn-primary">Upload</button>
-	                        </div>
-	                    </div>
-	                     <input type="hidden" name="isSuccess" value="1"/>
-	                    <div class="panel-footer">
-	                        <button class="btn btn-primary"  type="submit" data-toggle="modal" data-target="#modalthongbao">Lưu Thông tin</button>
-	                        <a href="" target="" class="btn btn-danger">Hủy</a>
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
-	    </div>
+		<div class="container">
+		        <div class="row">
+		            <img src="header.jpg" class="img-rounded" alt="Cinque Terre" width="100%">
+		        </div>
+		        <div class="row">
+		            <nav class="navbar navbar-default">
+		                <div class="container-fluid">
+		                    <ul class="nav navbar-nav">
+		                        <li>
+		                            <a href="TrangChu.jsp"> Trang chủ</a>
+		                        </li>
+		                        <li><a href="Quanlytaikhoan.jsp">Quản lý tài khoản</a></li>
+		                        <li class="active"><a href="QuanLyDeTai.jsp">Quản lý đề tài</a></li>
+		                        <li><a href="KiemTraSaoChep.jsp">Kiểm tra sao chép</a></li>
+		                        <li><a href="SoSanh.jsp">So sánh</a></li>
+		                        <li><a href="Loc.jsp">Lọc</a></li>
+		                    </ul>
+		                    <div style="padding-top:8px;">
+		                        <!--<label class="col-md-offset-3" style="padding-top:8px;">Admin</label>  -->
+		                        <a href="DangNhapChung.jsp" class="btn btn-primary pull-right">Đăng xuất</a>
+		                    </div>
+		                </div>
+		            </nav>
+		        </div>
+		        <div class="row">
+		            <div class="col-sm-8 col-lg-offset-2">
+		                <div class="panel panel-primary">
+		                    <div class="panel-heading text-center">Thêm đề tài</div>
+		                    <div class="panel-body">
+		                        <div class="form-group">
+		                            <label for="id">Tên đề tài:</label>
+		                            <input type="text" class="form-control" id="tendetai" required >
+		                        </div>
+		                        <div class="form-group">
+		                            <label for="name">Loại đề tài :</label>
+		                            <input type="text" class="form-control" id="loaidetai" required >
+		                        </div>
+		                        <div class="form-group">
+		                            <label for="name">Trưởng nhóm :</label>
+		                            <input type="text" class="form-control" id="truongnhom" required >
+		                            <label for="name">Mã SV :</label>
+		                            <input type="text" class="form-control" id="idnt" required>
+		                        </div>                                                 
+		                        <div class="form-group">
+		                            <label for="name">Thành viên :</label>
+		                            <input type="text" class="form-control" id="thanhvien" required >
+		                            <label for="name">Mã SV :</label>
+		                            <input type="text" class="form-control" id="idtv" required >
+		
+		                            <input type="file" />
+		                            <button class="btn btn-primary">Upload</button>
+		                        </div>
+		                        <div class="form-group">
+		                            <label for="name">Giáo Viên hướng dẫn :</label>
+		                            <input type="text" class="form-control" id="gvhd" required >
+		                            <label for="name">Mã GVHD :</label>
+		                            <input type="text" class="form-control" id="idgvhd" required >
+		                        </div>
+		                        <div class="form-group">
+		                            <label for="name">Giáo Viên phản biện :</label>
+		                            <input type="text" class="form-control" id="gvpb" required>
+		                            <label for="name">Mã GVPB :</label>
+		                            <input type="text" class="form-control" id="idgvpb" required >
+		                        </div>
+		                        <div class="form-group">
+		                            <label for="name">Điểm đề tài:</label>
+		                            <input type="text" class="form-control" id="score" required>
+		                            <label for="name">Năm :</label>
+		                            <input type="text" class="form-control" id="year" required>
+		                        </div>
+		                        <div class="form-group">
+		                            <label for="name">Tài liệu đính kèm:</label>
+		                            <a href="">Link liên kết tới nơi chứa tài liệu</a>
+		
+		                            <input type="file" />
+		                            <button class="btn btn-primary">Upload</button>
+		                        </div>
+		                    </div>
+		                     <input type="hidden" name="isSuccess" value="1"/>
+		                    <div class="panel-footer">
+		                        <button class="btn btn-primary"  type="submit" data-toggle="modal" data-target="#modalthongbao">Lưu Thông tin</button>
+		                        <a href="" target="" class="btn btn-danger">Hủy</a>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
 	</from>
 	
 	<c:if test='${param.isSuccess=="1"}'>
